@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6354f0b-098e-4eed-ba25-f810869bcf7d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1gCy0nW9sPQx7CscPA7xkFEocmw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/cmd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/cmd/generator/config" />
+      <recent name="$PROJECT_DIR$/cmd/generator" />
+      <recent name="$PROJECT_DIR$/sm2" />
+      <recent name="$PROJECT_DIR$/util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/xukgo/gsvcCtrlCenter/cmd/generator">
+    <configuration name="go build github.com/xukgo/gsvcCtrlCenter/cmd/generator" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gsvcCtrlCenter" />
+      <working_directory value="$PROJECT_DIR$/cmd/generator" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/generator/main.go" />
+      <package value="github.com/xukgo/gsvcCtrlCenter/cmd/generator" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/xukgo/gsvcCtrlCenter/cmd/uidc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gsvcCtrlCenter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/uidc/main.go" />
+      <package value="github.com/xukgo/gsvcCtrlCenter/cmd/uidc" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/xukgo/gsvcCtrlCenter/generator" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gsvcCtrlCenter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/generator/main.go" />
+      <package value="github.com/xukgo/gsvcCtrlCenter/generator" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEncryptDecrypt_C1C3C2 in github.com/xukgo/gsvcCtrlCenter/sm2 (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gsvcCtrlCenter" />
+      <working_directory value="$PROJECT_DIR$/sm2" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/xukgo/gsvcCtrlCenter/sm2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestEncryptDecrypt_C1C3C2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGenerateKey in github.com/xukgo/gsvcCtrlCenter/sm2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gsvcCtrlCenter" />
+      <working_directory value="$PROJECT_DIR$/sm2" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/xukgo/gsvcCtrlCenter/sm2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGenerateKey\E$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build github.com/xukgo/gsvcCtrlCenter/cmd/generator" />
+      <item itemvalue="Go Build.go build github.com/xukgo/gsvcCtrlCenter/cmd/uidc" />
+      <item itemvalue="Go Build.go build github.com/xukgo/gsvcCtrlCenter/generator" />
+      <item itemvalue="Go Test.TestEncryptDecrypt_C1C3C2 in github.com/xukgo/gsvcCtrlCenter/sm2 (1)" />
+      <item itemvalue="Go Test.TestGenerateKey in github.com/xukgo/gsvcCtrlCenter/sm2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/xukgo/gsvcCtrlCenter/cmd/generator" />
+        <item itemvalue="Go Build.go build github.com/xukgo/gsvcCtrlCenter/cmd/uidc" />
+        <item itemvalue="Go Build.go build github.com/xukgo/gsvcCtrlCenter/generator" />
+        <item itemvalue="Go Test.TestGenerateKey in github.com/xukgo/gsvcCtrlCenter/sm2" />
+        <item itemvalue="Go Test.TestEncryptDecrypt_C1C3C2 in github.com/xukgo/gsvcCtrlCenter/sm2 (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="382" y="47" width="1084" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597747791667">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="382" y="47" width="1084" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597747791667" />
+    <state x="652" y="320" width="606" height="419" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597648843217">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="652" y="320" width="606" height="419" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1597648843217" />
+    <state x="727" y="187" width="432" height="576" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1597747611677">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="727" y="187" width="432" height="576" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597747611677" />
+    <state width="881" height="646" key="DebuggerActiveHint" timestamp="1597747827750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="881" height="646" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1597747827750" />
+    <state x="570" y="232" width="746" height="485" key="EditFileWatcherDialog" timestamp="1597654943593">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="570" y="232" width="746" height="485" key="EditFileWatcherDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597654943593" />
+    <state x="784" y="155" width="334" height="712" key="EnvironmentVariablesDialog" timestamp="1597747546017">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="784" y="155" width="334" height="712" key="EnvironmentVariablesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597747546017" />
+    <state x="731" y="255" width="432" height="476" key="FileChooserDialogImpl" timestamp="1597746263008">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="255" width="432" height="476" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1597746263008" />
+    <state width="1842" height="324" key="GridCell.Tab.0.bottom" timestamp="1597747829762">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1842" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597747829762" />
+    <state width="1842" height="324" key="GridCell.Tab.0.center" timestamp="1597747829762">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1842" height="324" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597747829762" />
+    <state width="1842" height="324" key="GridCell.Tab.0.left" timestamp="1597747829761">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1842" height="324" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597747829761" />
+    <state width="1842" height="324" key="GridCell.Tab.0.right" timestamp="1597747829762">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1842" height="324" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597747829762" />
+    <state width="1842" height="324" key="GridCell.Tab.1.bottom" timestamp="1597747802693">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1842" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597747802693" />
+    <state width="1842" height="324" key="GridCell.Tab.1.center" timestamp="1597747802693">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1842" height="324" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597747802693" />
+    <state width="1842" height="324" key="GridCell.Tab.1.left" timestamp="1597747802693">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1842" height="324" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597747802693" />
+    <state width="1842" height="324" key="GridCell.Tab.1.right" timestamp="1597747802693">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1842" height="324" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597747802693" />
+    <state x="441" y="150" key="SettingsEditor" timestamp="1597654944781">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="441" y="150" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1597654944781" />
+    <state width="952" height="520" key="XDebugger.FullValuePopup" timestamp="1597645426051">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="952" height="520" key="XDebugger.FullValuePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1597645426051" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/generator/main.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
