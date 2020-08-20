@@ -1,0 +1,8 @@
+<Config>
+    <!-- 服务发现服务器地址列表   -->
+    <Endpoints>
+        <Addr>172.16.16.212:2179</Addr>
+        <Addr>172.16.16.212:2279</Addr>
+        <Addr>172.16.16.212:2479</Addr>
+    </Endpoints>
+</Config>

@@ -1,1 +1,1 @@
-go build -ldflags -w -o out/uidc cmd/uidc/main.go;upx -9 out/*;
+go build -ldflags -w -o out/generator cmd/generator/main.go;upx -9 out/*;

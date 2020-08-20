@@ -20,6 +20,9 @@ func main() {
 	//if err != nil {
 	//	os.Exit(-1)
 	//}
+	//fmt.Printf("d:%s\n", hex.EncodeToString(priv.D.Bytes()))
+	//fmt.Printf("x:%s\n", hex.EncodeToString(pub.X.Bytes()))
+	//fmt.Printf("y:%s\n", hex.EncodeToString(pub.Y.Bytes()))
 
 	priv := new(sm2.PrivateKey)
 	priv.Curve = sm2.GetSm2P256V1()
@@ -30,19 +33,16 @@ func main() {
 	pub.X, _ = new(big.Int).SetString(constDefine.MACHINECODE_SM2_PUB_X, 16)
 	pub.Y, _ = new(big.Int).SetString(constDefine.MACHINECODE_SM2_PUB_Y, 16)
 
-	//fmt.Printf("d:%s\n", hex.EncodeToString(priv.D.Bytes()))
-	//fmt.Printf("x:%s\n", hex.EncodeToString(pub.X.Bytes()))
-	//fmt.Printf("y:%s\n", hex.EncodeToString(pub.Y.Bytes()))
-
+	//fmt.Println("json:", string(gson))
 	cipherText, err := sm2.Encrypt(pub, gson, sm2.C1C3C2)
 	if err != nil {
 		os.Exit(-1)
 	}
 	fmt.Printf("generate unique id:\n%s\n", hex.EncodeToString(cipherText))
 
-	plainText, err := sm2.Decrypt(priv, cipherText, sm2.C1C3C2)
-	if err != nil {
-		os.Exit(-1)
-	}
-	fmt.Println(string(plainText))
+	//plainText, err := sm2.Decrypt(priv, cipherText, sm2.C1C3C2)
+	//if err != nil {
+	//	os.Exit(-1)
+	//}
+	//fmt.Println(string(plainText))
 }

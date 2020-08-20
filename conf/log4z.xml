@@ -1,0 +1,33 @@
+<log4z>
+    <!-- 公共日志类 -->
+    <logger name="Common">
+        <appender>ElkAppender</appender>
+    </logger>
+
+    <!-- LogSize 单个文件的最大大小，单位为Mb，记录的最大等级-->
+    <!--启用等级为大于等于minlevel，小于等于maxlevel-->
+    <!--MinLevel 日志过滤器所记录的最小等级，左闭右闭 debug、info、warn、error、dpanic、panic、fatal-->
+    <!--MaxLevel 日志过滤器所记录的最大等级，左闭右闭 debug、info、warn、error、dpanic、panic、fatal-->
+    <!--Encoder 日志信息格式化编码 json格式，console格式-->
+    <!--console是否开启控制台输出 true：开启 false：关闭-->
+    <!--maxBackup日志文件最多保存多少个备份-->
+    <!--maxDay文件最多保存多少天-->
+    <!-- LogPath 日志文件输出的路径-->
+    <!-- 公共日志附加介质-->
+    <appender name="ElkAppender">
+        <levelDefine size="50" min="debug" max="fatal" line="false" encoder="console" console="true" maxDay="15" maxBackup="30">
+            <path>log/run.log</path>
+        </levelDefine>
+    </appender>
+    <appender name="CommonAppender">
+        <levelDefine size="500" min="debug" max="info" line="false" encoder="console" console="true" maxDay="7" maxBackup="30">
+            <path>log/common/info.log</path>
+        </levelDefine>
+        <levelDefine  size="500" min="warn" max="warn" line="false"  encoder="console" console="true" maxDay="7" maxBackup="30">
+            <path>log/common/warn.log</path>
+        </levelDefine>
+        <levelDefine  size="500" min="error" max="fatal" line="true"  encoder="console" console="true" maxDay="7" maxBackup="30">
+            <path>log/common/error.log</path>
+        </levelDefine>
+    </appender>
+</log4z>
